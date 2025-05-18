@@ -38,13 +38,13 @@ const Navbar: React.FC<NavbarProps> = ({ activeSection }) => {
   return (
     <nav className={cn(
       "fixed w-full z-50 transition-all duration-300",
-      scrolled ? "bg-primary/90 backdrop-blur-sm shadow-lg" : "bg-transparent"
+      scrolled ? "bg-black/90 backdrop-blur-sm shadow-lg" : "bg-black/80"
     )}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           <div className="flex items-center">
-            <a href="#home" className="text-primary text-xl font-heading font-bold">
-              Vijay<span className="text-foreground">.dev</span>
+            <a href="#home" className="text-blue-500 text-xl font-heading font-bold">
+              Vijay<span className="text-white">.dev</span>
             </a>
           </div>
 
@@ -54,8 +54,8 @@ const Navbar: React.FC<NavbarProps> = ({ activeSection }) => {
                 key={link.name}
                 href={link.href}
                 className={cn(
-                  "text-foreground hover:text-primary transition duration-300 px-2",
-                  activeSection === link.href.substring(1) && "text-primary font-medium"
+                  "text-white hover:text-blue-400 transition duration-300 px-2",
+                  activeSection === link.href.substring(1) && "text-blue-500 font-medium"
                 )}
               >
                 {link.name}

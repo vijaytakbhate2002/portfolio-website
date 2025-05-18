@@ -25,7 +25,7 @@ const HeroSection: React.FC = () => {
             <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
               <div className="relative w-64 h-64 md:w-80 md:h-80 overflow-hidden rounded-full border-4 border-primary shadow-2xl shadow-primary/20">
                 <img 
-                  src="/attached_assets/profile-pic (1).png" 
+                  src="/profile-pic.png" 
                   alt="Vijay Takbhate" 
                   className="w-full h-full object-cover bg-primary/10"
                 />
