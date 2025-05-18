@@ -5,7 +5,7 @@ import {
   Activity, BarChart, Cloud 
 } from 'lucide-react';
 import { Card } from '@/components/ui/card';
-import { FaPython, FaDocker } from 'react-icons/fa';
+import { FaPython, FaDocker, FaKaggle } from 'react-icons/fa';
 import { cn } from '@/lib/utils';
 
 interface SkillBarProps {
@@ -126,6 +126,19 @@ const SkillsSection: React.FC = () => {
       colorClass: "bg-purple-600"
     }
   ];
+  
+  const kaggleAchievements = [
+    {
+      title: "Kaggle Notebook Expert",
+      description: "Recognition as a Notebook Expert on Kaggle for creating high-quality, insightful data analysis and ML notebooks",
+      colorClass: "bg-blue-600"
+    },
+    {
+      title: "Dataset Contributions",
+      description: "Regularly contribute to and collaborate on data science projects within the Kaggle community",
+      colorClass: "bg-green-600"
+    }
+  ];
 
   return (
     <section id="skills" className="py-20 bg-primary-light">
@@ -182,6 +195,25 @@ const SkillsSection: React.FC = () => {
                 title={skill.title} 
                 description={skill.description} 
                 colorClass={skill.colorClass}
+              />
+            ))}
+          </div>
+        </div>
+        
+        {/* Kaggle Achievements */}
+        <div className="mt-16">
+          <h3 className="text-xl font-semibold mb-8 text-center flex items-center justify-center">
+            <FaKaggle className="text-primary mr-3 text-2xl" />
+            Kaggle Achievements
+          </h3>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-3xl mx-auto">
+            {kaggleAchievements.map((achievement, index) => (
+              <AISkillCard 
+                key={index} 
+                title={achievement.title} 
+                description={achievement.description} 
+                colorClass={achievement.colorClass}
               />
             ))}
           </div>

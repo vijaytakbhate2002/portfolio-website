@@ -25,7 +25,7 @@ const HeroSection: React.FC = () => {
             <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
               <div className="relative w-64 h-64 md:w-80 md:h-80 overflow-hidden rounded-full border-4 border-primary shadow-2xl shadow-primary/20">
                 <img 
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=800" 
+                  src="@assets/profile-pic (1).png" 
                   alt="Vijay Takbhate" 
                   className="w-full h-full object-cover"
                 />
@@ -43,7 +43,7 @@ const HeroSection: React.FC = () => {
                 <span className={`text-primary ${cursor ? 'opacity-100' : 'opacity-0'} transition-opacity duration-100`}>|</span>
               </h2>
               <p className="text-muted-foreground mb-8 max-w-lg mx-auto lg:mx-0">
-                Currently working as a Risk Analyst with a passion for AI and Machine Learning. 
+                Currently working as a Risk Analyst at Incred Financial Services with a passion for AI and Machine Learning. 
                 Transforming complex data into impactful solutions.
               </p>
               <div className="flex flex-wrap justify-center lg:justify-start gap-4">
@@ -57,15 +57,15 @@ const HeroSection: React.FC = () => {
               
               {/* Social Links */}
               <div className="mt-8 flex justify-center lg:justify-start space-x-6">
-                <a href="https://github.com/" target="_blank" rel="noopener noreferrer" 
+                <a href="https://github.com/vijaytakbhate2002" target="_blank" rel="noopener noreferrer" 
                    className="text-muted-foreground hover:text-primary transition-colors">
                   <FaGithub className="text-2xl" />
                 </a>
-                <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" 
+                <a href="https://linkedin.com/in/vijay-takbhate" target="_blank" rel="noopener noreferrer" 
                    className="text-muted-foreground hover:text-primary transition-colors">
                   <FaLinkedin className="text-2xl" />
                 </a>
-                <a href="https://kaggle.com/" target="_blank" rel="noopener noreferrer" 
+                <a href="https://kaggle.com/vijaytakbhate" target="_blank" rel="noopener noreferrer" 
                    className="text-muted-foreground hover:text-primary transition-colors">
                   <FaKaggle className="text-2xl" />
                 </a>
