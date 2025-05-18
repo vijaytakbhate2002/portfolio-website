@@ -61,11 +61,11 @@ const HeroSection: React.FC = () => {
                    className="text-muted-foreground hover:text-primary transition-colors">
                   <FaGithub className="text-2xl" />
                 </a>
-                <a href="https://linkedin.com/in/vijay-takbhate" target="_blank" rel="noopener noreferrer" 
+                <a href="https://www.linkedin.com/in/vijay-takbhate-b9231a236/" target="_blank" rel="noopener noreferrer" 
                    className="text-muted-foreground hover:text-primary transition-colors">
                   <FaLinkedin className="text-2xl" />
                 </a>
-                <a href="https://kaggle.com/vijaytakbhate" target="_blank" rel="noopener noreferrer" 
+                <a href="https://www.kaggle.com/vijay20213" target="_blank" rel="noopener noreferrer" 
                    className="text-muted-foreground hover:text-primary transition-colors">
                   <FaKaggle className="text-2xl" />
                 </a>

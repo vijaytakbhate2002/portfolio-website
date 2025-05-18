@@ -47,7 +47,6 @@ const Home = () => {
       <ExperienceSection />
       <SkillsSection />
       <FuturePlansSection />
-      <YouTubeSection />
       <ContactSection />
       <Footer />
       
