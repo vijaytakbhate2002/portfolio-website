@@ -133,7 +133,7 @@ const YouTubeSection: React.FC = () => {
                   <YoutubeIcon className="text-white text-2xl" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold">Tech Insights with Vijay</h3>
+                  <h3 className="text-xl font-semibold">Deep Neural</h3>
                   <p className="text-muted-foreground">AI & ML Educational Content</p>
                 </div>
               </div>
@@ -154,8 +154,10 @@ const YouTubeSection: React.FC = () => {
                 </div>
               </div>
               
-              <Button className="w-full bg-red-600 hover:bg-red-700">
-                <YoutubeIcon className="mr-2 h-4 w-4" /> Subscribe to Channel
+              <Button className="w-full bg-red-600 hover:bg-red-700" asChild>
+                <a href="https://www.youtube.com/@VijayTakbhate" target="_blank" rel="noopener noreferrer">
+                  <YoutubeIcon className="mr-2 h-4 w-4" /> Subscribe to Channel
+                </a>
               </Button>
             </CardContent>
           </Card>

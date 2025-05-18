@@ -48,13 +48,13 @@ const Navbar: React.FC<NavbarProps> = ({ activeSection }) => {
             </a>
           </div>
 
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-4">
             {navLinks.map((link) => (
               <a
                 key={link.name}
                 href={link.href}
                 className={cn(
-                  "text-foreground hover:text-primary transition duration-300",
+                  "text-foreground hover:text-primary transition duration-300 px-2",
                   activeSection === link.href.substring(1) && "text-primary font-medium"
                 )}
               >
