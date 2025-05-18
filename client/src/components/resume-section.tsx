@@ -51,6 +51,13 @@ const ResumeSection: React.FC = () => {
               
               <div className="space-y-6">
                 <div className="border-l-2 border-primary pl-4">
+                  <h4 className="font-medium">Risk Analyst</h4>
+                  <p className="text-primary">Incred Financial Services</p>
+                  <p className="text-sm text-muted-foreground">Dec 2024 – Present</p>
+                  <p className="text-sm text-muted-foreground mt-2">Analyzing financial data and identifying potential risks. Utilizing data-driven approaches to support decision-making processes.</p>
+                </div>
+                
+                <div className="border-l-2 border-primary pl-4">
                   <h4 className="font-medium">Automation Engineer</h4>
                   <p className="text-primary">Fox Solutions Pvt. Ltd.</p>
                   <p className="text-sm text-muted-foreground">Jun 2024 – Oct 2024</p>

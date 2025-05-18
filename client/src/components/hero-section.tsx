@@ -3,6 +3,7 @@ import { ArrowDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useTypedText } from '@/hooks/use-typed-text';
 import { FaGithub, FaLinkedin, FaKaggle, FaEnvelope } from 'react-icons/fa';
+import { SiMedium } from 'react-icons/si';
 
 const HeroSection: React.FC = () => {
   const { typedText, cursor } = useTypedText([
@@ -15,8 +16,6 @@ const HeroSection: React.FC = () => {
   return (
     <section id="home" className="pt-20 md:pt-0">
       <div className="relative min-h-screen flex items-center justify-center bg-primary-light overflow-hidden">
-        <div className="absolute inset-0 bg-cover bg-center opacity-20" 
-             style={{backgroundImage: "url('https://pixabay.com/get/g29a17bd712862acbf6e6bf193a88c05ad3b2f211b4cd3acd4e1ace36b9ad503120e0b432c1f634b1acda68d42b2a7fa52d53ff2bb980025dc428f26df3d3788d_1280.jpg')"}}></div>
         <div className="absolute inset-0 bg-gradient-to-b from-background via-background/80 to-primary-light"></div>
         
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 z-10">
@@ -68,6 +67,10 @@ const HeroSection: React.FC = () => {
                 <a href="https://www.kaggle.com/vijay20213" target="_blank" rel="noopener noreferrer" 
                    className="text-muted-foreground hover:text-primary transition-colors">
                   <FaKaggle className="text-2xl" />
+                </a>
+                <a href="https://medium.com/@vijaytakbhate45" target="_blank" rel="noopener noreferrer" 
+                   className="text-muted-foreground hover:text-primary transition-colors">
+                  <SiMedium className="text-2xl" />
                 </a>
                 <a href="mailto:vijaytakbhate20@gmail.com" 
                    className="text-muted-foreground hover:text-primary transition-colors">
