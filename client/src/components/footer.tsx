@@ -12,9 +12,8 @@ const Footer: React.FC = () => {
 
   const socialLinks = [
     { icon: <FaGithub />, href: 'https://github.com/vijaytakbhate2002', label: 'GitHub' },
-    { icon: <FaLinkedin />, href: 'https://linkedin.com/in/vijay-takbhate', label: 'LinkedIn' },
-    { icon: <FaKaggle />, href: 'https://kaggle.com/vijaytakbhate', label: 'Kaggle' },
-    { icon: <FaYoutube />, href: 'https://www.youtube.com/@VijayTakbhate', label: 'YouTube' },
+    { icon: <FaLinkedin />, href: 'https://www.linkedin.com/in/vijay-takbhate-b9231a236/', label: 'LinkedIn' },
+    { icon: <FaKaggle />, href: 'https://www.kaggle.com/vijay20213', label: 'Kaggle' },
   ];
 
   return (

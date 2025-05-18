@@ -61,10 +61,10 @@ const TimelineItem: React.FC<TimelineItemProps> = ({
 const ExperienceSection: React.FC = () => {
   const experiences = [
     {
-      date: "Present",
+      date: "Dec 2024 - Present",
       title: "Risk Analyst",
       company: "Incred Financial Services",
-      description: "Working as a Risk Analyst, analyzing financial data and identifying potential risks. Utilizing data-driven approaches to support decision-making processes and implementing risk mitigation strategies.",
+      description: "Working as a Risk Analyst since December 4th, 2024, analyzing financial data and identifying potential risks. Utilizing data-driven approaches to support decision-making processes and implementing risk mitigation strategies.",
       tags: ["Risk Analysis", "Data Analytics", "Financial Services"]
     },
     {

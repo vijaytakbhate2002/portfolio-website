@@ -102,7 +102,8 @@ const ContactSection: React.FC = () => {
                   </div>
                   <div>
                     <h3 className="font-medium mb-1">Location</h3>
-                    <p className="text-muted-foreground text-sm">Maharashtra, India</p>
+                    <p className="text-muted-foreground text-sm">Mumbai, Maharashtra, India</p>
+                    <p className="text-primary text-sm mt-1">Open to AI-related roles</p>
                   </div>
                 </CardContent>
               </Card>

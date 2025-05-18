@@ -43,9 +43,9 @@ const FuturePlansSection: React.FC = () => {
   ];
 
   const projectIdeas = [
-    "Build an end-to-end MLOps pipeline for a real-world problem",
-    "Develop a multimodal AI system combining vision and language",
-    "Create a lightweight AI solution for edge devices/IoT"
+    "Experiment with hardware technologies and integrate AI with robotics",
+    "Contribute to AI-driven robotics projects with like-minded people",
+    "Build AI solutions that solve real-world problems through hardware integration"
   ];
 
   return (
